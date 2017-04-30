@@ -1,0 +1,3 @@
+[submodule "jupyter/datalabframework"]
+	path = jupyter/datalabframework
+	url = git@github.com:natbusa/datalabframework.git
