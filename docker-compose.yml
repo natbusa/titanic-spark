@@ -9,7 +9,7 @@ services:
     build: jupyter
     command: start.sh jupyter notebook
     volumes:
-      - ./jupyter:/home/jovyan/work
+      - ./jupyter/work:/home/jovyan/work
     environment:
       SPARK_OPTS: '--master=spark://spark-master:7077'
     ports:
